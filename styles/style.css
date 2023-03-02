@@ -1,0 +1,187 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4E6E81;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #f4bf84;
+}
+
+.banner {
+  background: url("../imagens/banner.jpeg") 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #4E6E81;
+  opacity: 0.9;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #f4bf84;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #2E3840;
+}
+
+#services {
+  margin: 80px;
+}
+#services h3 {
+  font-size: 1.2rem;
+  color: #4E6E81;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#services h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#services .services__cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#services .services__cards .services__cards__card {
+  width: 360px;
+  text-align: center;
+}
+#services .services__cards .services__cards__card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #f4bf84;
+}
+#services .services__cards .services__cards__card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #4E6E81;
+  line-height: 1.25rem;
+}
+#services .services__cards .services__cards__card .services__cards__card__image-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #4E6E81;
+}
+#services .services__cards .services__cards__card .services__cards__card__image-container img {
+  max-width: 100%;
+}
+
+#coupon {
+  background-color: #4E6E81;
+  padding: 4rem;
+  text-align: center;
+}
+#coupon .coupon__text {
+  color: #2E3840;
+}
+#coupon .coupon__text h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#coupon .coupon__subscription__input {
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#coupon .coupon__subscription__input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 90%;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#coupon .coupon__subscription__input:hover, #coupon .coupon__subscription__input:focus-within {
+  box-shadow: 1px 1px 8px 1px #2E3840;
+  outline: none;
+}
+#coupon button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #f4bf84;
+  color: #2E3840;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #2E3840;
+  border-radius: 40px;
+}
+#coupon button:hover {
+  color: #f4bf84;
+  background-color: #2E3840;
+  border-color: #f4bf84;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #4E6E81;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #4E6E81, #2E3840);
+}
+footer i {
+  color: red;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+.bottom-section .bottom-section__image {
+  border-bottom: 6px solid #4E6E81;
+}
+.bottom-section .bottom-section__text {
+  text-align: center;
+  padding: 2rem;
+  line-height: 2rem;
+}
+.bottom-section .bottom-section__text h3 {
+  color: #f4bf84;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.bottom-section .bottom-section__text h4 {
+  color: #4E6E81;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.bottom-section .bottom-section__text p {
+  color: #4E6E81;
+  font-size: 1.2rem;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
